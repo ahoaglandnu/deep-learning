@@ -13,6 +13,6 @@ Includes three hidden layers and tanh activation function
 
 ### Expected Output
 
-[output](output.png)
+![output](https://github.com/ahoaglandnu/deep-learning/blob/master/output.png)
 
 ### Written in Python 3
