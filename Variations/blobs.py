@@ -31,10 +31,10 @@ def tanh(x,deriv=False):
 
 # randomize initial weights
 np.random.seed(1234)
-i_to_h1_weights = 2*np.random.random((3,100)) - 1
-h1_to_h2_weights = 2*np.random.random((100,100)) - 1
-h2_to_h3_weights = 2*np.random.random((100,100)) - 1
-h3_to_o_weights = 2*np.random.random((100,1)) - 1
+i_to_h1_weights = 2*np.random.random((3,3)) - 1
+h1_to_h2_weights = 2*np.random.random((3,3)) - 1
+h2_to_h3_weights = 2*np.random.random((3,3)) - 1
+h3_to_o_weights = 2*np.random.random((3,1)) - 1
 
 for j in range(10):
 
