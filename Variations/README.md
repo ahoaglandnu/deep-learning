@@ -46,3 +46,43 @@ Three hidden layers, tanh and sigmoid activation functions
 
 ![Figure_2](Figure_2.png)
 
+# moons.py
+
+### New
+
+![sklearn](http://scikit-learn.org/stable/_static/scikit-learn-logo-small.png)
+
+- [Make two interleaving half circles]
+
+[Make two interleaving half circles]: http://scikit-learn.org/stable/modules/generated/sklearn.datasets.make_moons.html
+
+### Summary
+
+Interate through 3 different learning rates
+
+Randomly generated binary classification data set
+
+1000 samples, 500 per class, 2 features
+
+Input Layer: 2 neurons
+
+Hidden Layer 1,2,3: 8 neurons 
+
+Three hidden layers, tanh and sigmoid activation functions
+
+### Plot of data set
+
+![moons](moons.png) 
+
+### Output from different learning rates
+
+![4](output_4.png) 
+![1](1.png) 
+
+![3](output_3.png) 
+![01](01.png) 
+
+![2](output_2.png) 
+![001](001.png) 
+
+
