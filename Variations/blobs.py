@@ -7,6 +7,7 @@ from sklearn.metrics import classification_report
 
 raw_X,y = make_blobs(centers=2, n_features=3, random_state=4321)
 
+# scatter plot of data set
 plt.figure(figsize=(8, 8))
 plt.scatter(raw_X[:, 0], raw_X[:, 1], c=y, cmap='bwr')
 plt.title('Two Random Classes of Blobs')
@@ -68,10 +69,16 @@ for j in range(10):
     i_to_h1_weights += input_layer.T.dot(hidden_layer_1_delta)
 
 print("Trained network error:"+ str(np.mean(np.abs(output_layer_error))))
+
+# reshape for classification report
 y_true = np.reshape(y, (100,)) 
 y_pred = np.reshape(output_layer, (100,))
+
+# round output to 0 or 1
 y_pred = np.round(y_pred, decimals=0)
 print(classification_report(y_true, y_pred))
+
+# scatter plot of output
 plt.figure(figsize=(8, 8))
 plt.scatter(raw_X[:, 0], raw_X[:, 1], c=y_pred, cmap='winter')
 plt.title('Toy NN Results')
