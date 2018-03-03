@@ -38,13 +38,13 @@ Three hidden layers, tanh and sigmoid activation functions
 
 ### Plot of data set
 
-![Figure_1](Figure_1.png) 
+![Figure_1](images/Figure_1.png) 
 
 ### Expected Output
 
-![output_blobs](output_blobs.png)
+![output_blobs](images/output_blobs.png)
 
-![Figure_2](Figure_2.png)
+![Figure_2](images/Figure_2.png)
 
 # moons.py
 
@@ -72,17 +72,17 @@ Three hidden layers, tanh and sigmoid activation functions
 
 ### Plot of data set
 
-![moons](moons.png) 
+![moons](images/moons.png) 
 
 ### Output from different learning rates
 
-![4](output_4.png) 
-![1](1.png) 
+![4](images/output_4.png) 
+![1](images/1.png) 
 
-![3](output_3.png) 
-![01](01.png) 
+![3](images/output_3.png) 
+![01](images/01.png) 
 
-![2](output_2.png) 
-![001](001.png) 
+![2](images/output_2.png) 
+![001](images/001.png) 
 
 
