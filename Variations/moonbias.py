@@ -42,6 +42,7 @@ print("Learning rate:", learning_rate)
 
 # epochs
 epochs = 1000
+print(epochs, "epochs")
 for j in range(epochs):
 
     # forward pass
