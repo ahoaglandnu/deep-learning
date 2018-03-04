@@ -1,4 +1,4 @@
-# Overfitting
+# Toy Neural Network in NumPy - Avoiding Overfitting
 
 Adding more to the original toy neural network
 
@@ -12,7 +12,9 @@ Avoiding overfitting - estimate the upper bounds of hidden layer neurons
 
 ### Dataset
 
-Sci-kit Learn copy of [UCI ML Breast Cancer Wisconsin (Diagnostic) dataset]: http://scikit-learn.org/stable/modules/generated/sklearn.datasets.load_breast_cancer.html
+Sci-kit Learn copy of [UCI ML Breast Cancer Wisconsin (Diagnostic)] dataset
+
+[UCI ML Breast Cancer Wisconsin (Diagnostic)]: http://scikit-learn.org/stable/modules/generated/sklearn.datasets.load_breast_cancer.html
 
 ### Results
 
