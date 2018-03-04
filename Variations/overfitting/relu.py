@@ -9,7 +9,7 @@ data = load_breast_cancer()
 # Prep dataset
 raw_X = data.data
 y = data.target
-#print(raw_X.shape) # needed shape to set below
+#print(raw_X.shape) # shape to set below
 #print(y.shape)
 
 # recommended upper bound of hidden neurons
@@ -38,16 +38,16 @@ def relu(x,deriv=False):
 
 # randomize initial weights
 np.random.seed(1234)
-i_to_h1_weights = 2*np.random.random((30,3)) - 1 # 30 inputs to 20 neurons
-h1_to_h2_weights = 2*np.random.random((3,3)) - 1 # 20 neurons to 10 neurons
-h2_to_h3_weights = 2*np.random.random((3,3)) - 1 # 10 neurons to 6 neurons
-h3_to_o_weights = 2*np.random.random((3,1)) - 1 # 6 neurons to 1 output
+i_to_h1_weights = 2*np.random.random((30,3)) - 1 # 30 inputs to 3 neurons
+h1_to_h2_weights = 2*np.random.random((3,3)) - 1 # 3 neurons to 3 neurons
+h2_to_h3_weights = 2*np.random.random((3,3)) - 1 # 3 neurons to 3 neurons
+h3_to_o_weights = 2*np.random.random((3,1)) - 1 # 3 neurons to 1 output
 
 # randomize initial biases
 np.random.seed(123)
-hidden_layer_1_bias = 2*np.random.random((3)) - 1 # bias for 20 neurons
-hidden_layer_2_bias = 2*np.random.random((3)) - 1 # bias for 10 neurons
-hidden_layer_3_bias = 2*np.random.random((3)) - 1 # bias for 6 neurons
+hidden_layer_1_bias = 2*np.random.random((3)) - 1 # bias for 3 neurons
+hidden_layer_2_bias = 2*np.random.random((3)) - 1 # bias for 3 neurons
+hidden_layer_3_bias = 2*np.random.random((3)) - 1 # bias for 3 neurons
 output_layer_bias = 2*np.random.random((1)) - 1 # bias for output
 
 # set learning rate
